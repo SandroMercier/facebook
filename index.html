@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,800;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary" style="position: relative;">
+        <div class="container-fluid">
+          <a class="navbar-brand"><h1>SocialBook</h1></a>
+          <form class="d-flex" id="form">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" style="margin-right:70px;">
+          </form>
+          <div class="icon">
+            <a href="#">
+                <img src="pictures/images/profile.png" class="img-fluid" id="profile" style="width: 50px;border-radius:50%;border:white 3px solid;">
+                <i class="bi bi-circle-fill" id="online" style="color: rgb(0, 255, 0);font-size: 13px"></i>
+            </a>
+          </div>
+          
+        </div>
+      </nav>
+    <section class="section" id="colums">
+        <div class="container-fluid px-2 px-2">
+            <div class="row">
+                <div class="col-lg-4 px-1 pt-1 " id="part1">
+                    <div class="container-fluid">
+                        <div class="row ">
+                            <a href="profile.html" class="btn btn-primary outline-succes">Go to homepage</a>
+                            <div class="col-md-3 col-12 col-lg-12">
+                                <h5><a href="#" class="link_icons"><i class="bi bi-tv"></i></a>Views</h5>
+                            </div>
+                            <div class="col-md-3 col-12 col-lg-12">
+                                <h5><a href="#" class="link_icons"><i class="bi bi-person"></i></a>Friends</h5>
+                            </div>
+                            <div class="col-md-3 col-12 col-lg-12">
+                                <h5><a href="#" class="link_icons"><i class="bi bi-people-fill"></i></a>Groups</h5>
+                            </div>
+                            <div class="col-md-3 col-12 col-lg-12">
+                                <h5><a href="#" class="link_icons"><i class="bi bi-shop"></i></a>Market</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <h5>Your shortcuts</h5>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="pictures/images/shortcut-1.png" alt="">
+                            </div>
+                            <div class="col-9 px-1">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="pictures/images/shortcut-2.png" alt="">
+                            </div>
+                            <div class="col-9 px-1">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="pictures/images/shortcut-3.png" alt="">
+                            </div>
+                            <div class="col-9 px-1">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-3">
+                                <img src="pictures/images/shortcut-4.png" alt="">
+                            </div>
+                            <div class="col-9 px-1">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-1" id="part3" >
+                    <div class="container-fluid px-2">
+                        <div class="container-fluid px-2">
+                            <div class="row">
+                                <div class="col-3 px-1">
+                                    <div class="card">
+                                        <img src="pictures/images/status-1.png" class="card-img">
+                                        <i class="bi bi-plus story" style="color: white;"></i>
+                                        <h5 class="card-title">John Doe</h5>
+                                    </div>
+                                </div>
+                                <div class="col-3 px-1">
+                                    <div class="card">
+                                        <img src="pictures/images/status-2.png" class="card-img">
+                                        <img src="images/pic-2.png" alt="" class="story">
+                                        <h5 class="card-title">Jane Doe</h5>
+                                    </div>
+                                </div>
+                                <div class="col-3 px-1">
+                                    <div class="card">
+                                        <img src="pictures/images/status-3.png" class="card-img">
+                                        <img src="images/pic-3.png" alt="" class="story">
+                                        <h5 class="card-title">James Doe</h5>
+                                    </div>
+                                </div>
+                                <div class="col-3 px-1">
+                                    <div class="card">
+                                        <img src="pictures/images/status-4.png" class="card-img">
+                                        <img src="images/pic-4.png" alt="" class="story">
+                                        <h5 class="card-title">Janet Doe</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 my-2">
+                                <img src="pictures/images/profile.png" 
+                                style="width: 100%; border-radius: 50%;">
+                            </div>
+                            <div class="col-8 my-1 px-1">
+                                <p style="margin-bottom: 3px;">John Doe</p>
+                                <p style="color: grey;font-size:11px">February 1st 2022, 08:05 pm</p>
+                            </div>
+                            <div class="col-1 my-2 px-0">
+                                <img src="pictures/images/more.png" class="more" style="width: 15px;margin-left:50%">
+                            </div>
+                            <div class="col-12">
+                                <p style="font-size:small; color:grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum tenetur, itaque unde omnis quibusdam similique, doloremque ducimus culpa fuga, saepe blanditiis natus? Iure non ab quasi cupiditate saepe. Sed!</p>
+                            </div>
+                            <div class="col-12">
+                                <img src="pictures/images/feed-image-1.png" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                            <p style="color: grey;font-size:small">120</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-chat-fill d-inline"></i>
+                                            <p style="color: grey;font-size:small">100</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-share-fill"></i>
+                                            <p style="color: grey;">20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="row">
+                            <div class="col-3 my-2">
+                                <img src="pictures/images/profile.png" 
+                                style="width: 100%; border-radius: 50%;">
+                            </div>
+                            <div class="col-8 my-1 px-1">
+                                <p style="margin-bottom: 3px;">John Doe</p>
+                                <p style="color: grey;font-size:11px">February 1st 2022, 08:05 pm</p>
+                            </div>
+                            <div class="col-1 my-2 px-0">
+                                <img src="pictures/images/more.png" class="more" style="width: 15px;margin-left:50%">
+                            </div>
+                            <div class="col-12">
+                                <p style="font-size:small; color:grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum tenetur, itaque unde omnis quibusdam similique, doloremque ducimus culpa fuga, saepe blanditiis natus? Iure non ab quasi cupiditate saepe. Sed!</p>
+                            </div>
+                            <div class="col-12">
+                                <img src="pictures/images/feed-image-2.png" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                            <p style="color: grey;font-size:small">120</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-chat-fill d-inline"></i>
+                                            <p style="color: grey;font-size:small">100</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-share-fill"></i>
+                                            <p style="color: grey;">20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="row">
+                            <div class="col-3 my-2">
+                                <img src="pictures/images/profile.png" 
+                                style="width: 100%; border-radius: 50%;">
+                            </div>
+                            <div class="col-8 my-1 px-1">
+                                <p style="margin-bottom: 3px;">John Doe</p>
+                                <p style="color: grey;font-size:11px">February 1st 2022, 08:05 pm</p>
+                            </div>
+                            <div class="col-1 my-2 px-0">
+                                <img src="pictures/images/more.png" class="more" style="width: 15px;margin-left:50%">
+                            </div>
+                            <div class="col-12">
+                                <p style="font-size:small; color:grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum tenetur, itaque unde omnis quibusdam similique, doloremque ducimus culpa fuga, saepe blanditiis natus? Iure non ab quasi cupiditate saepe. Sed!</p>
+                            </div>
+                            <div class="col-12">
+                                <img src="pictures/images/feed-image-3.png" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                            <p style="color: grey;font-size:small">120</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-chat-fill d-inline"></i>
+                                            <p style="color: grey;font-size:small">100</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-share-fill"></i>
+                                            <p style="color: grey;">20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="row">
+                            <div class="col-3 my-2">
+                                <img src="pictures/images/profile.png" 
+                                style="width: 100%; border-radius: 50%;">
+                            </div>
+                            <div class="col-8 my-1 px-1">
+                                <p style="margin-bottom: 3px;">John Doe</p>
+                                <p style="color: grey;font-size:11px">February 1st 2022, 08:05 pm</p>
+                            </div>
+                            <div class="col-1 my-2 px-0">
+                                <img src="pictures/images/more.png" class="more" style="width: 15px;margin-left:50%">
+                            </div>
+                            <div class="col-12">
+                                <p style="font-size:small; color:grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum tenetur, itaque unde omnis quibusdam similique, doloremque ducimus culpa fuga, saepe blanditiis natus? Iure non ab quasi cupiditate saepe. Sed!</p>
+                            </div>
+                            <div class="col-12">
+                                <img src="pictures/images/feed-image-4.png" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                            <p style="color: grey;font-size:small">120</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-chat-fill d-inline"></i>
+                                            <p style="color: grey;font-size:small">100</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-share-fill"></i>
+                                            <p style="color: grey;">20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border"></div>
+                        <div class="row">
+                            <div class="col-3 my-2">
+                                <img src="pictures/images/profile.png" 
+                                style="width: 100%; border-radius: 50%;">
+                            </div>
+                            <div class="col-8 my-1 px-1">
+                                <p style="margin-bottom: 3px;">John Doe</p>
+                                <p style="color: grey;font-size:11px">February 1st 2022, 08:05 pm</p>
+                            </div>
+                            <div class="col-1 my-2 px-0">
+                                <img src="pictures/images/more.png" class="more" style="width: 15px;margin-left:50%">
+                            </div>
+                            <div class="col-12">
+                                <p style="font-size:small; color:grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nostrum tenetur, itaque unde omnis quibusdam similique, doloremque ducimus culpa fuga, saepe blanditiis natus? Iure non ab quasi cupiditate saepe. Sed!</p>
+                            </div>
+                            <div class="col-12">
+                                <img src="pictures/images/feed-image-5.png" class="img-fluid">
+                            </div>
+                            <div class="col-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                            <p style="color: grey;font-size:small">120</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-chat-fill d-inline"></i>
+                                            <p style="color: grey;font-size:small">100</p>
+                                        </div>
+                                        <div class="col-4 px-0" style="width: 15%;">
+                                            <i class="bi bi-share-fill"></i>
+                                            <p style="color: grey;">20</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-1" id="part2">
+                    <div class="menu" id="menu">
+                        <div class="container-fluid px-2">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="pictures/images/member-4.png" alt="" class="img-fluid">
+                                </div>
+                                <div class="col-4 d-block">
+                                    <h6>John Doe</h6>
+                                    <p style="margin-bottom: 3px;">Public</p>
+                                    <div class="friends d-flex">
+                                        <img src="pictures/images/member-5.png" style="width:25px; border-radius:50%;" class="img-fluid">
+                                        <img src="pictures/images/member-6.png" style="width:25px;border-radius:50%;" class="img-fluid">
+                                        <img src="pictures/images/member-7.png" style="width:25px;border-radius:50%;" class="img-fluid">
+                                        <img src="pictures/images/member-8.png" style="width:25px;border-radius:50%;" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-5 d-inline p-1">
+                                    <a style="font-size: 10px; padding: 2px;" href="#" class="btn btn-light p-1"><i class="bi bi-people-fill"></i>Friends</a>
+                                    <a style="font-size: 10px;padding:2px" href="#" class="btn btn-primary p-1"><i style="color: white;" class="bi bi-chat-fill"></i>Chat</a>
+                                    <div class="dark-slide-icon text-center">
+                                        <div class="toggle" id="toggle">
+                                            <input type="checkbox" name="ckeckbox" class="checkbox" id="dark-mode">
+                                            <label for="dark-mode" class="label">
+                                                <i style="color: #0d6efd; margin:5px" class="bi bi-sun-fill"></i>
+                                                <i style="color: #0d6efd; margin:5px" class="bi bi-moon-fill"></i>
+                                                <div class="ball"></div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <p style="margin-bottom:2px;text-align:justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga sint totam minus laborum non dolorum consequuntur expedita ullam doloribus. Reprehenderit quis, ut consectetur neque animi veritatis, qui hic iure natus dignissimos eos ducimus</p>
+                                    <a href="#" class="btn btn-primary mx-2" id="login-btn">Login now</a>
+                                    <a href="#" class="btn btn-primary mx-2" id="register-btn">Register now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="register" id="register">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h5>You haven't an account, it's time to <span style="color: #07ffd6;">Register</span></h5>
+                                <form action="#">
+                                    <input type="text" class="form-control" id="name" placeholder="Your name" required style="margin-bottom: 10px;" >
+                                    <input type="email" class="form-control" id="email" placeholder="Your name" required style="margin-bottom: 10px;" >
+                                    <input type="password" class="form-control" id="password" placeholder="password" required style="margin-bottom: 10px;" >
+                                    <input type="password" class="form-control" id="password" placeholder=" Confirm password" required style="margin-bottom: 10px;" >
+                                    <button type="submit" style="color: #e20636; background:#07ffd6;margin-bottom: 10px;" >Register</button>
+                                </form>
+                                <i class="bi bi-x-lg" id="close" style="color: white; font-size:25px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="login" id="login">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h5>You have an account, it's time to <span style="color: #e20636;">Login</span></h5>
+                                <form action="#">
+                                    <input type="text" class="form-control" id="user" placeholder="username or email" required style="margin-bottom: 20px;" >
+                                    <input type="password" class="form-control" id="password" placeholder="password" required style="margin-bottom: 20px;" >
+                                    <button type="submit" style="color: white; background:#e20636;margin-bottom: 20px;" >Login</button>
+                                </form>
+                                <i class="bi bi-x-lg" id="close" style="color: white; font-size:25px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid px-2">
+                        <div class="row">
+                            <div class="col-12 px-1">
+                                <h5 style="display: inline;margin-right:40%;">Events</h5>
+                                <a href="#" class="btn text-primary px-1" style="display: inline;margin-left:10%;">See all</a>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: 1px solid grey; border-radius:6px">
+                                    <h4 class="card-title" style="padding: 10px; text-align:center;position:unset;transform:none">18</h4>
+                                    <p class="card-text" style="color: white; background:#0d6efd; text-align:center ">March</p>
+                                </div>
+                            </div>
+                            <div class="col-9 d-inline py-2">
+                                <h6 style="font-weight: bold;margin-bottom: 2px">Social Media</h6>
+                                <p style="margin-bottom: 2px;"><span style="font-weight: bold;padding-right:2px;">9</span>Wilson Tech Park</p>
+                                <a href="#" class="btn text-primary" style="padding: 0;margin:1px 2px">More info</a>
+                            </div>
+                            <div class="col-3">
+                                <div class="card" style="border: 1px solid grey; border-radius:6px">
+                                    <h4 class="card-title" style="padding: 10px; text-align:center;position:unset;transform:none">22</h4>
+                                    <p class="card-text" style="color: white; background:#0d6efd; text-align:center ">July</p>
+                                </div>
+                            </div>
+                            <div class="col-9 d-inline py-2">
+                                <h6 style="font-weight: bold;margin-bottom: 2px">Mobile Marketing</h6>
+                                <p style="margin-bottom: 2px;"><span style="font-weight: bold;padding-right:2px;">8</span>Digital City</p>
+                                <a href="#" class="btn text-primary" style="padding: 0;margin:1px 2px">More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 px-1">
+                                <h5 style="display: inline;margin-right:10%;">Advertisement</h5>
+                                <a href="#" class="btn text-primary" style="display: inline;margin-left:5%;">See all</a>
+                            </div>
+                            <div class="col-12">
+                                <img src="pictures/images/advertisement.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 px-1">
+                                <h5 style="display: inline;margin-right:10%;">Conversation</h5>
+                                <a href="#" class="btn text-primary" style="display: inline;margin-left:5%;">Hide Chat</a>
+                            </div>
+                            <div class="col-3">
+                                <img src="pictures/images/member-2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-9">
+                                <h6>Jackson Aston</h6>
+                            </div>
+                            <div class="col-3">
+                                <img src="pictures/images/member-6.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-9">
+                                <h6>Alison Mina</h6>
+                            </div>
+                            <div class="col-3">
+                                <img src="pictures/images/member-8.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-9">
+                                <h6>Samantha Turner</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
